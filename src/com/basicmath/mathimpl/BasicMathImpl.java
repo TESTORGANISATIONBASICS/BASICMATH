@@ -15,10 +15,9 @@ public class BasicMathImpl implements BasicMath {
 	}
 
 	@Override
-	public void mutiply(int a, int b) {
-
+	public int multiply(int a, int b) { 
+		return a*b;
 	}
-
 	@Override
 	public void divide(int a, int b) {
 
