@@ -46,7 +46,7 @@ public class BasicMathImpl implements BasicMath {
 
 	@Override
 	public void areaOfSquare(int a) {
-
+		System.out.println("Area of square is:"+(a*a));
 	}
 
 	@Override
