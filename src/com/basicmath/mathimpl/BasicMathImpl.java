@@ -51,7 +51,7 @@ public class BasicMathImpl implements BasicMath {
 
 	@Override
 	public void areaOfRectangle(int a, int b) {
-
+		System.out.println("Area of Rectangle is:"+(a*b));
 	}
 
 }
